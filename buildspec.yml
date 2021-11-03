@@ -18,7 +18,7 @@ phases:
     commands:
       - echo Build started on date
       - echo Compiling the Node.js code
-      - export AWS_ACCESS_KEY_ID=AKIAURNRGO3IFYWFMR6B
+      - export AWS_ACCESS_KEY_ID=AKIATWPNBFMOOVT5STNS
       - export AWS_SECRET_ACCESS_KEY=$env.secrets-manager.SERVERLESS_ACCESS_KEY
       
   post_build:

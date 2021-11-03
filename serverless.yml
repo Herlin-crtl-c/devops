@@ -2,8 +2,8 @@ service: slack-app
 provider:
   name: aws
   runtime: nodejs14.x
-  region: eu-north-1
-  role: arn:aws:iam::312293619408:role/slack-codebuild
+  region: us-east-1
+  role: arn:aws:iam::254437042972:role/service-role/slack-codebuild
   timeout: 5
   stage: ${opt:stage, 'dev'}
   memorySize: 128
